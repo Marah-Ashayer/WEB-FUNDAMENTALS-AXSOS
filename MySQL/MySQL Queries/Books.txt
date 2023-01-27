@@ -1,0 +1,20 @@
+use books;
+select * from authors;
+insert into authors (first_name,last_name) values ('Jane', 'Austen'),('Emily', 'Dickinson'),('Fyodor', 'Dostoevsky'),('William', 'Shakespeare'),('Lau' ,'Tzu');
+
+ select * from books;
+insert into books (title,num_of_pages) values ('C Sharp',200),('Java',450),('Python',370),('PHP',700),('Ruby',590);
+
+update books set title='C#' where id=1;
+update authors set first_name='Bill' where id=4;
+
+select * from favorites;
+insert into favorites(author_id,book_id) values (1,1),(1,2),(2,1),(2,2),(2,3),(3,1),(3,2),(3,3),(3,4),(4,1),(4,2),(4,3),(4,4),(4,5);
+
+select * from favorites where book_id = 3;
+
+delete from favorites where book_id=3 and author_id=2;
+insert into favorites(author_id,book_id) values (5,2);
+ 
+select * from favorites where author_id=3
+select * from favorites where book_id=5

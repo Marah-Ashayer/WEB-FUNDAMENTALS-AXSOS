@@ -1,0 +1,39 @@
+select * from dojos
+
+insert into dojos (name) values ('jjjjjj')
+insert into dojos (name) values ('oooooo')
+insert into dojos (name) values ('dddddd')
+
+delete from dojos where id=1
+delete from dojos where id=2
+delete from dojos where id=3
+
+insert into dojos (name) values ('yyyyyy')
+insert into dojos (name) values ('oooooo')
+insert into dojos (name) values ('uuuuuu')
+
+select * from ninjas 
+
+insert into ninjas (first_name,last_name,age,dojo_id) values ('ahmed','ali',10,4)
+insert into ninjas (first_name,last_name,age,dojo_id) values ('kamal','kareem',10,4)
+insert into ninjas (first_name,last_name,age,dojo_id) values ('yamen','ali',10,4)
+
+insert into ninjas (first_name,last_name,age,dojo_id) values ('ggggg','ali',10,5)
+insert into ninjas (first_name,last_name,age,dojo_id) values ('fffff','kareem',10,5)
+insert into ninjas (first_name,last_name,age,dojo_id) values ('ssssss','ali',10,5)
+
+insert into ninjas (first_name,last_name,age,dojo_id) values ('ggggg','hhhhhh',10,6)
+insert into ninjas (first_name,last_name,age,dojo_id) values ('fffff','ooooooo',10,6)
+insert into ninjas (first_name,last_name,age,dojo_id) values ('ssssss','ddddddd',10,6)
+
+select * from ninjas where dojo_id=4
+select * from ninjas where dojo_id=6
+
+select * from ninjas where id=9
+
+
+
+
+
+
+
