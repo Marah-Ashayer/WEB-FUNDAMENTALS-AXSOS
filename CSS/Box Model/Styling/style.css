@@ -1,0 +1,38 @@
+
+body{
+    background-color: blanchedalmond;
+}
+h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    
+}
+h2 {
+    color: white;
+    font-size: 42px;
+    text-align: center;
+    font-style: italic;
+    font-family: cursive;
+}
+h3 {
+    color: purple;
+    font-size: 32px;
+    text-decoration-line: underline;
+    text-align: right;
+    font-family: cursive;
+}
+.purple{
+    background-color: rebeccapurple;
+}
+.blue{
+    background-color: blue;
+}
+.black{
+    background-color: black;
+}
+#rebeccapurple{
+    background-color: blue;
+}
+
+

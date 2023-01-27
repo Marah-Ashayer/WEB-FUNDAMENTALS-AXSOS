@@ -1,0 +1,470 @@
+.nav{
+    color: #fff;
+    height:80px;
+    background-color: rgb(50, 50, 65);
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+
+    
+}
+.nav-links{
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    text-decoration: none; 
+    font-family: cursive;
+
+}
+
+.nav-title{
+    margin-left: 150px;
+    font-family: serif;
+}
+.btn {
+    height: 34px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: white;
+    font-size: 14px;
+    box-shadow: 5px 4px black;
+}
+
+
+.one{
+    position: absolute;
+    left:400px;
+    top:35px;
+    font-size: 25px;
+    color: rgb(168, 168, 168);
+    text-decoration: none;
+}
+.two{
+    position: absolute;
+    left:500px;
+    top:35px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+.three{
+    position: absolute;
+    left:650px;
+    top:35px;
+    font-size: 25px;
+    color: rgb(168, 168, 168);
+    text-decoration: none;
+}
+
+/*Card1*/
+
+.card {
+    background-color: white;
+    height: 350px;
+    width: 500px;
+    justify-items: center;
+    display: flex;
+    position: relative;
+    left:20%;
+    margin-top: 50px;
+    border: 2px solid gray ;
+    
+}
+.content {
+    margin-top: 0px;
+    background-color: rgb(61, 61, 238);
+    width: 500px;
+    height: 90px;
+
+}
+
+.content > img {
+    height: 90px;
+    position: absolute;
+    margin: 50px ;
+    border: 3px solid rgb(234, 234, 241);
+}
+
+.img1 {
+    border-radius: 50px;
+}
+
+.img2{
+    height: 20px;
+    width: 10px;
+    position: absolute ;
+    left: 70px ;
+    top:200px;
+    
+
+}
+.img3{
+    height: 15px;
+    width: 15px;
+    position: absolute ;
+    left: 50px;
+    bottom: 45px;
+}
+.text1{
+    position: absolute;
+    left: 55px ;
+    top:150px ;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.text2{
+    position: absolute; 
+    left: 100px ; 
+    top:200px;
+    font-size: 20px;
+    font-family: serif;
+    font-weight:bold;
+}
+.text3{
+    position: absolute; 
+    left: 55px ;
+    top:240px ;
+    font-size: 16px;
+    font-family: serif; 
+    font-weight:bold;
+}
+
+#link a {
+    position: absolute;
+    left: 70px ;
+    bottom:45px;
+    font-size: 13px;
+    font-family: serif;
+    font-weight:bold;
+}
+
+
+/*Card2*/
+
+.card2 {
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-items: center;
+    position: relative;
+    left:60%;
+    bottom:350px;
+    border: 2px solid gray ;
+    
+}
+.content2 {
+    margin-top: 0px;
+    background-color: rgb(50, 50, 65);
+    width: 300px;
+    height: 70px;
+}
+.num-img{
+    background-color: grey;
+    font-family: cursive;
+    font-weight: bolder;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: 40px;
+}
+
+.Connection{
+    position: absolute; 
+    left: 80px ; 
+    top:25px;
+    font-size: 20px;
+    font-family: serif;
+    font-weight:bold;
+    color: white;
+
+}
+.todd{
+    position: absolute; 
+    left: 90px ; 
+    bottom:80px;
+    font-size: 20px;
+    font-family: serif;
+    font-weight:bold;
+}
+.phil{
+    position: absolute; 
+    left: 90px ; 
+    bottom:30px;
+    font-size: 20px;
+    font-family: serif;
+    font-weight:bold;
+}
+
+.T-todd{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right:60px;
+    bottom: 80px;
+    
+
+}
+.F-todd{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right:30px;
+    bottom: 80px;
+}
+.T-phil{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right:60px;
+    bottom: 30px;
+    
+
+}
+.F-phil{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right:30px;
+    bottom: 30px;
+}
+
+
+.todd-img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 30px;
+    bottom:70px;
+    border-radius: 50%;
+}
+
+.phil-img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 30px;
+    bottom:20px;
+    border-radius :50%;
+}
+
+/*Card3*/
+
+
+.card3{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 60%;
+    bottom: 450px;
+    margin-top: 120px;
+    background-color: white;
+    border:2px solid rgb(189, 183, 183);   
+}
+
+.content3{
+    margin-top: 0px;
+    background-color: rgb(50, 50, 65);
+    width: 300px;
+    height: 70px;
+}
+
+.num{
+    background-color: grey;
+    font-weight: bolder;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 30px;
+    padding: 20px;
+    line-height: 5px;
+    position: absolute;
+    top: 7px;
+    left: 15px;  
+    
+}
+.your-connections{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    left:100px;
+    top:19px;
+
+}
+.adrien-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left:30px;
+    top:80px;
+
+}
+.adrien{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    position: absolute;
+    left: 90px;
+    top: 90px;
+
+}
+
+.anne-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left:30px;
+    top:150px;
+
+
+}
+.anne{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    position: absolute;
+    left: 90px;
+    top: 155px;
+
+}
+
+.alayne-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left:30px;
+    top:210px;
+}
+
+.alayne{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    position: absolute;
+    left: 90px;
+    top: 220px;
+
+}
+.arry-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left:30px;
+    top:270px;
+}
+
+.arry{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    position: absolute;
+    left: 90px;
+    top: 280px;
+
+}
+
+.end{    
+    
+    background-color: white;
+    border-top: 2px solid rgb(189, 183, 183);
+    width: 300px;
+    height: 60px;
+    position: absolute;
+    bottom: 0px ;
+    left: 0px;
+    font-weight:bold;
+    font-family: cursive;
+}
+
+.end a{
+    position: absolute;
+    bottom: 25px ;
+    left: 20px;
+    color: rgb(73, 73, 209);
+
+}
+
+/*Card4*/
+
+
+.card4{
+    width: 500px;
+    height: 150px;
+    background-color: white;
+    justify-items: center;
+    display: flex;
+    position: relative;
+    left:20%;
+    bottom: 700px;
+    border:3px solid rgb(189, 183, 183);
+    
+}
+
+.content4{
+    width: 500px;
+    height: 40px;
+    margin-top: 0px;
+    color: white;
+    background-color: rgb(50, 50, 65);
+}
+
+.education{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:cursive;
+    position: absolute;
+    left: 50px;
+    top:5px;
+}
+
+.first{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:cursive;
+    position: absolute;
+    left: 50px;
+    top:40px;
+
+}
+
+.second{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:cursive;
+    position: absolute;
+    left: 50px;
+    top:70px;
+    color: rgb(124, 122, 122);
+}
+
+.third{
+    font-size: 15px;
+    font-weight: bold;
+    font-family:cursive;
+    position: absolute;
+    left: 50px;
+    top:100px;
+    
+
+}

@@ -1,0 +1,30 @@
+.b1 {
+border-style: solid;
+border-color: aqua;
+background-color: white;
+width: 150px;
+height: 26px;
+border-radius: 1em;
+
+}
+
+.b2{
+    background-color: aqua;
+    color: white;
+    border-radius: 150%;
+    border:none;
+    font-size: 45px;
+    width: 55px;
+    
+}
+.b3 {
+
+    background-color: blue;
+    border:3px solid;
+    padding: 10px;
+    border-color:black ;
+    color: white;
+    font-size: 35px;
+    box-shadow: 5px 4px black ;
+    
+}

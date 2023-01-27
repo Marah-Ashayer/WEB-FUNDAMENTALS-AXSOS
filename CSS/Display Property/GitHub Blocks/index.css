@@ -1,0 +1,37 @@
+.container{
+    width: 950px;
+    background-color: #e8ece3;
+    margin: 0px auto;
+    padding: 20px;
+    
+}
+.row1{
+    background-color: #58c4ef;
+    display: inline-block;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px auto 25px auto;
+}
+.row2{
+    background-color: #d899aa;
+    display: inline-block;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px auto 25px auto;
+
+}
+.row3{
+    background-color: white;
+    display: inline-block;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px auto 35px auto;
+}
+
+
